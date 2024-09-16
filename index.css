@@ -36,6 +36,7 @@ h1{
 
 .input {
     position: absolute;
+    background-color: white;
     top: 0%;
     width: 90%;
     height: 15%;
@@ -95,7 +96,7 @@ button:active {
 }
 @media screen and (max-width: 768px) {
     .container {
-        width: 80vw;
+        width: 70vw;
     }
     button {
         font-size: 1rem; 
@@ -104,7 +105,7 @@ button:active {
 
 @media screen and (max-width: 480px) {
     .container {
-        width: 85vw;
+        width: 75vw;
     }
     button {
         font-size: 0.9rem; 
