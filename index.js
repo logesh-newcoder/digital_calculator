@@ -17,3 +17,10 @@ function cle(){
     a.value="";
     console.log(a.value);
 }
+function mode1(){
+    a.style.display="block"
+    a.value="";
+}
+function mode2(){
+    a.style.display="none"
+}
