@@ -103,7 +103,7 @@ button:active {
 @media screen and (max-width: 768px) {
 
     .container {
-        width: 70vw;
+        width: 75vw;
     }
 
     button {
@@ -115,7 +115,7 @@ button:active {
 @media screen and (max-width: 480px) {
 
     .container {
-        width: 75vw;
+        width: 85vw;
     }
 
     button {
