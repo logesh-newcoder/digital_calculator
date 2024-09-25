@@ -1,9 +1,8 @@
-    * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     height: 100vh;
     width: 100vw;
@@ -14,13 +13,11 @@ body {
     justify-content: center;
     overflow: hidden;
 }
-
 h1{
     color: white;
     text-align: center;
     padding: 2.4rem;
 }
-
 .container {
     height: 60vh;
     width: 55vw;
@@ -35,7 +32,6 @@ h1{
     position: relative;
     margin-bottom: 100px;
 }
-
 .input {
     position: absolute;
     background-color:white;
@@ -44,7 +40,6 @@ h1{
     height: 15%;
     margin: 0.7rem;
 }
-
 input {
     display: none;
     width: 100%;
@@ -55,11 +50,9 @@ input {
     font-size: 2rem;
     border: none;
 }
-
 input:focus {
     outline: none;
 }
-
 .key {
     position: absolute;
     width: 95%;
@@ -70,7 +63,6 @@ input:focus {
     justify-items: center;
     align-items: center;
 }
-
 button {
     width: 50%;
     height: 70%;
@@ -83,43 +75,31 @@ button {
     cursor: pointer;
     transition: background-color 0.1s linear; 
 }
-
 button:hover {
     background-color:wheat; 
 }
-
 button:active {
     background-color: white; 
 }
-
 .symbol:active{
     background-color: orange;
 }
-
 .symbols:active{
     background-color: green;
 }
-
 @media screen and (max-width: 768px) {
-
     .container {
         width: 75vw;
     }
-
     button {
         font-size: 1rem; 
     }
-
 }
-
 @media screen and (max-width: 480px) {
-
     .container {
         width: 85vw;
     }
-
     button {
         font-size: 0.9rem; 
     }
-
 }
